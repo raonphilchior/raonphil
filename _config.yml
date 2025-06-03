@@ -32,6 +32,8 @@ analytics:
 
 collections:
   portfolio: 
+    output: true
+    sort_by: order
 
 markdown: kramdown
 
@@ -41,3 +43,4 @@ markdown: kramdown
 
 plugins:
   - jekyll-remote-theme
+

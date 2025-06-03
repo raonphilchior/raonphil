@@ -54,3 +54,67 @@ strong, b, h1, h2, h3, h4, h5, h6 {
     font-size: 120%;
   }
 }
+
+.youtube-wrapper {
+  position: relative;
+  padding-bottom: 75%; /* 4:3 비율 */
+  height: 0;
+  overflow: hidden;
+}
+
+.youtube-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.raon-thumb {
+  width: 200px !important;
+  height: 200px !important;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  display: block;
+}
+
+.raon-thumb:hover {
+  transform: scale(1.05);
+}
+
+.raon-image-modal {
+  display: none;
+  position: fixed;
+  z-index: 1050;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.8);
+  justify-content: center;
+  align-items: center;
+}
+
+.raon-image-modal.show {
+  display: flex;
+}
+
+.raon-modal-content {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 8px;
+}
+
+.raon-modal-close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
