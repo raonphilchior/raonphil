@@ -1,5 +1,30 @@
-_site
-.sass-cache
+# Jekyll build output
+_site/
+.jekyll-cache/
 .jekyll-metadata
-.jekyll-cache
 Gemfile.lock
+
+# Sass cache
+.sass-cache/
+
+# Bundler files
+.bundle/
+vendor/
+Gemfile.lock
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Node modules (if using npm/yarn for frontend)
+node_modules/
