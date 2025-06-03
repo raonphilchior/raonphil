@@ -3,11 +3,19 @@
 Agency Jekyll Theme 를 이용하여 제작하였습니다. 
 하기는 디자인 관련 정보입니다.
 
+MIT 라이선스에 따르나 상업적이용 재사용은 금합니다.
+
 ### local : 
-1. ruby 설치후 gem install bundler jekyll 설치
-2. (실행위치이동) bundle exec jekyll serve
+1. ruby 3.1 설치후 gem install bundler jekyll 설치
+2. (실행위치이동) bundle install -> bundle exec jekyll serve
 3. http://localhost:4000
 
+4. (서버내림)  tasklist | findstr ruby  > taskkill /F /PID {숫자}
+5. (그래도안되면) del Gemfile.lock > rd /s /q .bundle
+
+
+### font : 
+https://copyright.keris.or.kr/wft/fntDwnldView?fntGrpId=GFT202408200000000000003
 
 ## [Agency Jekyll Theme](https://github.com/raviriley/agency-jekyll-theme) Starter Template
 [![RubyGems Downloads](https://img.shields.io/gem/dt/jekyll-agency.svg)](https://rubygems.org/gems/jekyll-agency)
@@ -24,3 +32,4 @@ If you want your website to be at `YOUR-USERNAME.github.io`, that's what you mus
 **If you enjoy this theme, please consider [supporting me](https://www.paypal.me/raviriley) to continue developing and maintaining it.**
 
 [![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/raviriley)
+

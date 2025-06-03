@@ -1,0 +1,13 @@
+// Font Mixins - 덮어쓰기용
+@mixin serif-font {
+  font-family: 'Hakgyoansim Dunggeunmiso TTF R', sans-serif;
+}
+@mixin script-font {
+  font-family: 'Hakgyoansim Dunggeunmiso TTF R', sans-serif;
+}
+@mixin body-font {
+  font-family: 'Hakgyoansim Dunggeunmiso TTF R', sans-serif;
+}
+@mixin heading-font {
+  font-family: 'Hakgyoansim Dunggeunmiso TTF B', sans-serif;
+}

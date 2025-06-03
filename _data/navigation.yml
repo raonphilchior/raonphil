@@ -11,20 +11,16 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Services"
-      section: services
-    - title: "Portfolio"
-      section: portfolio
-    - title: "About"
+    - title: "소개"
       section: about
-    - title: "Timeline"
+    - title: "지난공연(자료)"
+      section: portfolio
+    - title: "지난공연(간략)"
       section: timeline
-    - title: "Team"
+    - title: "함께하는 사람들"
       section: team
-    - title: "Contact"
+    - title: "가입신청&문의"
       section: contact
-    - title: "Theme Source"
-      url: https://github.com/raviriley/agency-jekyll-theme/
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -33,7 +29,8 @@ en-GB:
   <<: *DEFAULT_EN
 en-AU:
   <<: *DEFAULT_EN
-
+ko-KR:
+  <<: *DEFAULT_EN
 # Spanish
 # -------
 es: &DEFAULT_ES

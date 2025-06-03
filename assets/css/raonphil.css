@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Hakgyoansim OTF R';
+  src: url('/assets/css/font/HakgyoansimDunggeunmisoOTF-R-KO.woff2') format('woff2'),
+       url('/assets/css/font/HakgyoansimDunggeunmisoOTF-R-KO.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hakgyoansim OTF B';
+  src: url('/assets/css/font/HakgyoansimDunggeunmisoOTF-B-KO.woff2') format('woff2'),
+       url('/assets/css/font/HakgyoansimDunggeunmisoOTF-B-KO.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hakgyoansim Dunggeunmiso TTF B';
+  src: url('/assets/css/font/HakgyoansimDunggeunmisoTTF-B.woff2') format('woff2'),
+       url('/assets/css/font/HakgyoansimDunggeunmisoTTF-B.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hakgyoansim Dunggeunmiso TTF R';
+  src: url('/assets/css/font/HakgyoansimDunggeunmisoTTF-R.woff2') format('woff2'),
+       url('/assets/css/font/HakgyoansimDunggeunmisoTTF-R.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Hakgyoansim Dunggeunmiso TTF R', sans-serif;
+  font-weight: normal;
+}
+
+strong, b, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Hakgyoansim Dunggeunmiso TTF B', sans-serif;
+  font-weight: bold;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 90%;
+}
+
+/* 데스크탑 (992px 이상에서만 더 크게) */
+@media (min-width: 992px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 120%;
+  }
+}

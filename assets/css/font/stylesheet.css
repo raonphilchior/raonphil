@@ -1,0 +1,36 @@
+@font-face {
+    font-family: '';
+    src: url('HakgyoansimDunggeunmisoOTF-R-KO.woff2') format('woff2'),
+        url('HakgyoansimDunggeunmisoOTF-R-KO.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('HakgyoansimDunggeunmisoOTF-B-KO.woff2') format('woff2'),
+        url('HakgyoansimDunggeunmisoOTF-B-KO.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hakgyoansim Dunggeunmiso TTF B';
+    src: url('HakgyoansimDunggeunmisoTTF-B.woff2') format('woff2'),
+        url('HakgyoansimDunggeunmisoTTF-B.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hakgyoansim Dunggeunmiso TTF R';
+    src: url('HakgyoansimDunggeunmisoTTF-R.woff2') format('woff2'),
+        url('HakgyoansimDunggeunmisoTTF-R.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
