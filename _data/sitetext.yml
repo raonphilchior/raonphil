@@ -17,8 +17,8 @@ en: &DEFAULT_EN
     buttonlink: "#about"
 
   about:
-    title: "라온필하모닉 합창단 소개"
-    text: "Our story"
+    title: 라온필하모닉 합창단 소개
+    text: Our story
     body: |
       라온필하모닉합창단은 2014년에 창단되어  
       프로와 아마추어가 함께 활동하는 합창단입니다.  
@@ -41,29 +41,83 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
-      - title: "에덴 요양병원 공연"
-        year: "2015년 06월"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "라온필하모닉 합창단 제1회 정기연주회"
-        year: "2015년 10월"
-        desc: "강동아트센터 대극장"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
+      - year: "2022-2024"
+        desc: |
+          2024년 5월 성남문화예술제 음악제(성남아트센터 콘서트홀)
+
+
+          2024년 12월 가을사랑음악회 "가장 아름다운 노래"(중흥교회)
+
+
+          2023년 12월 강동문화원 송년음악회(강동아트센터 대극장)
+
+
+          2022년 10월 10주년 기념음악회 강동필하모닉 오케스트라 "The Hero- Giant"(강동아트센터 대극장)
         align: right
-    end: "Be Part <br> of Our <br> Story!"
+      - year: "2019"
+        desc: |
+          02월 3.1운동 100주년 기념음악회 나의조국(예술의전당 콘서트홀)
+
+
+          10월 다큐갈라 콘서트 울림3 100년의 기억, 100년의 비전(세종문화회관 대극장)
+
+
+          12월 제5회 희망을 나누는 행복콘서트 The Christmas(코엑스 오디토리움)
+
+
+          12월 이웃과 함께 강동예찬 환희의 송가(강동아트센터 대극장)
+      - year: "2018"
+        desc: |
+          04월 한신대학교 개교78주년기념콘서트(롯데콘서트홀)
+
+
+          08월 위대한 대한민국 '울림' <안전과 평화>(롯데콘서트홀)
+
+
+          10월 베르디 레퀴엠과 오페라 합창명곡(롯데콘서트홀)
+
+
+          11월 필하모닉 합창단 제3회 정기연주회(강동아트센터 대극장)
+
+
+          12월 외국인 근로자를 위한 송년음악회
+      - year: "2017"
+        desc: |
+          04월 에덴 요양병원 공연
+
+
+          07월 제2회 정기연주회(강동아트센터 대극장)
+
+
+          12월 에덴 요양병원 공연
+
+
+          12월 외국인 근로자를 위한 송년음악회
+      - year: "2016년"
+        desc: |
+         08월 한민족 합창축제 (예술의전당 콘서트홀)
+
+
+         08월 제39회 한국합창제 (국립극장 해오름)
+
+
+         11월 ‘감동과 환희’ 한국을 빛낸 위대한 성악가들 (예술의전당 콘서트홀)
+
+
+         11월 에덴 요양병원 공연
+
+
+         12월 외국인 근로자를 위한 송년음악회
+      - title: 시작
+        year: "2015년"
+        desc: |
+         06월 에덴 요양병원 공연
+
+
+         10월 제1회 정기연주회(강동아트센터 대극장)
+
+
+         12월 외국인 근로자를 위한 송년음악회
 
   clients:
     section: clients
@@ -84,41 +138,29 @@ en: &DEFAULT_EN
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "함께하는 사람들"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: 함께하는 사람들
+    text: "Our People"
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
       - name: "박용기"
         role: "지휘자"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+        career : |
+          현) 라온필하모닉합창단 상임지휘자
+
+          강동필하모닉합창단 상임지휘자 
+
+          총신대학교 종교음악과 졸업(지휘전공)
+
+          중앙대학교 예술대학원 졸업(지휘전공)
+
+          러시아 상트페테르부르그 국립음악원 졸업(지휘전공)
+
+          전) 포천시립합창단 지휘자
+      - name: "이정아"
+        role: "피아노"
+      - name: "조은호"
+        role: "단무장 예술감독"
 
   contact:
     title: "Contact Us"
@@ -138,16 +180,8 @@ en: &DEFAULT_EN
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
+      - url: https://www.youtube.com/@raonphill
+        icon: "fab fa-youtube"
 en-US:
   <<: *DEFAULT_EN
 en-CA:

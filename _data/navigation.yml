@@ -11,16 +11,18 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "소개"
+    - title: 소개
       section: about
-    - title: "지난공연(자료)"
+    - title: 지난공연(자료)
       section: portfolio
-    - title: "지난공연(간략)"
+    - title: 지난공연(간략)
       section: timeline
-    - title: "함께하는 사람들"
+    - title: 함께하는 사람들
       section: team
-    - title: "가입신청&문의"
-      section: contact
+    - title: 가입신청&문의
+      url: https://band.us/n/a1acb0C3l9dcd
+    - title: <i class='fab fa-youtube'></i>
+      url: https://www.youtube.com/@raonphill
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -31,25 +33,9 @@ en-AU:
   <<: *DEFAULT_EN
 ko-KR:
   <<: *DEFAULT_EN
-# Spanish
-# -------
-es: &DEFAULT_ES
-  nav:
-    - title: "Servicios"
-      section: servicios
-    - title: "Portafolio"
-      section: portafolio
-    - title: "Sobre Nosotros"
-      section: nosotros
-    - title: "Cronología"
-      section: cronologia
-    - title: "Equipo"
-      section: equipo
-    - title: "Contáctenos"
-      section: contacto
-    - title: "Fuente de la plantilla"
-      url: https://github.com/raviriley/agency-jekyll-theme/
+es: 
+  <<: *DEFAULT_EN
 es-ES:
-  <<: *DEFAULT_ES
+  <<: *DEFAULT_EN
 es-CO:
-  <<: *DEFAULT_ES
+  <<: *DEFAULT_EN
