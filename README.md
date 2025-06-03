@@ -3,6 +3,11 @@
 Agency Jekyll Theme 를 이용하여 제작하였습니다. 
 하기는 디자인 관련 정보입니다.
 
+### local : 
+1. ruby 설치후 gem install bundler jekyll 설치
+2. (실행위치이동) bundle exec jekyll serve
+3. http://localhost:4000
+
 
 ## [Agency Jekyll Theme](https://github.com/raviriley/agency-jekyll-theme) Starter Template
 [![RubyGems Downloads](https://img.shields.io/gem/dt/jekyll-agency.svg)](https://rubygems.org/gems/jekyll-agency)
