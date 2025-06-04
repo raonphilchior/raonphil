@@ -70,16 +70,72 @@ strong, b, h1, h2, h3, h4, h5, h6 {
   height: 100%;
 }
 
+.portfolio-item-wrapper {
+  position: relative;
+}
+
+.more-indicator {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: #fed136;
+  color: #000;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+  z-index: 10;
+  opacity: 0.9;
+}
+
+@media (min-width: 768px) {
+  .more-indicator {
+    font-size: 14px;
+    padding: 4px 8px;
+  }
+}
+.more-indicator:hover {
+  background-color: #000;
+  color: #fed136;
+}
+
+.about-text {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+@media (min-width: 992px) {
+  .about-text {
+    font-size: 2rem;
+  }
+}
+
+
+.raon-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px;
+}
+
 .raon-thumb {
-  width: 200px !important;
-  height: 200px !important;
+  width: calc(100% / 4 - 8px); /* 기본: 모바일 4개 */
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  cursor: pointer;
+ /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);*/
   transition: transform 0.3s ease;
-  display: block;
+  cursor: pointer;
 }
+
+/* PC용 (768px 이상이면 8등분) */
+@media (min-width: 768px) {
+  .raon-thumb {
+    width: calc(100% / 8 - 8px);
+  }
+}
+
 
 .raon-thumb:hover {
   transform: scale(1.05);
