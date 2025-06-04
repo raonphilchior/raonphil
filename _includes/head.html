@@ -40,8 +40,8 @@
   {% endif %}
   <!-- Custom styles for this theme -->
   <!--<link href="assets/css/agency.min.css" rel="stylesheet">-->
-  <link href="assets/css/agency.css" rel="stylesheet" />
-  <link href="assets/css/raonphil.css" rel="stylesheet" />
+  <link href="assets/css/agency.css?v={{ site.time | date: '%Y%m%d%H%M%S' }}" rel="stylesheet" />
+  <link href="assets/css/raonphil.css?v={{ site.time | date: '%Y%m%d%H%M%S' }}" rel="stylesheet" />
 
   <!-- Page container change top padding when nav shrinks -->
   {% if page.layout == "page" %}
