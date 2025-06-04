@@ -13,15 +13,15 @@ en: &DEFAULT_EN
   nav:
     - title: 소개
       section: about
-    - title: 지난공연(자료)
+    - title: 자료
       section: portfolio
-    - title: 지난공연(간략)
+    - title: 연혁
       section: timeline
-    - title: 함께하는 사람들
+    - title: 사람
       section: team
-    - title: 가입신청&문의
+    - title: 가입
       url: https://band.us/n/a1acb0C3l9dcd
-    - title: <i class='fab fa-youtube'></i>
+    - title: 영상
       url: https://www.youtube.com/@raonphill
 en-US:
   <<: *DEFAULT_EN
