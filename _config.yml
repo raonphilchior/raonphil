@@ -14,8 +14,8 @@
 #theme: jekyll-agency
 #remote_theme: raviriley/agency-jekyll-theme
 
-url    : "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/" # the subpath of your site, e.g. /blog
+url    : "https://raonphilchior.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/raonphil" # the subpath of your site, e.g. /blog
 
 title      : 라온필하모닉합창단
 email      : lino90@hanmail.com #this is also the email contact forms will go to
