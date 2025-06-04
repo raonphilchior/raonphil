@@ -19,9 +19,9 @@ en: &DEFAULT_EN
       section: timeline
     - title: 사람
       section: team
-    - title: 가입
+    - title: 가입&문의
       url: https://band.us/n/a1acb0C3l9dcd
-    - title: 영상
+    - title: <i class='fab fa-youtube'></i>
       url: https://www.youtube.com/@raonphill
 en-US:
   <<: *DEFAULT_EN
