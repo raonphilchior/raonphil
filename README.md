@@ -7,7 +7,7 @@ MIT 라이선스에 따르나 상업적이용 재사용은 금합니다.
 
 ### local : 
 1. ruby 3.1 설치후 gem install bundler jekyll 설치
-2. (실행위치이동) bundle install -> bundle exec jekyll serve  or bundle exec jekyll serve --trace
+2. (실행위치이동) bundle install ->  bundle exec jekyll serve --trace
 3. http://localhost:4000
 
 4. (서버내림)  tasklist | findstr ruby  > taskkill /F /PID {숫자}
