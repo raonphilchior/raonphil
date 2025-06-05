@@ -26,13 +26,13 @@ en: &DEFAULT_EN
     section: about
 
   portfolio:
-    title: "자료"
+    title: "소중한 발자취"
     text: "Our portfolio"
     section: portfolio
     closebutton: "공연정보 닫기"
 
   timeline:
-    title: "연혁"
+    title: "걸어온 길"
     text: "Our timeline"
     section: timeline
     # left is the default
@@ -105,8 +105,7 @@ en: &DEFAULT_EN
 
 
          12월 외국인 근로자를 위한 송년음악회
-      - title: 시작
-        year: "2015년"
+      - year: "2015년 창립"
         desc: |
          06월 에덴 요양병원 공연
 
@@ -135,7 +134,7 @@ en: &DEFAULT_EN
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: 사람
+    title: 함께하는 사람들
     text: "Our people"
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
