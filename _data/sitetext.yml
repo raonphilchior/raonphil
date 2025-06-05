@@ -158,14 +158,14 @@ en: &DEFAULT_EN
         role: "피아노"
       - name: "조은호"
         role: "단무장 예술감독"
-#        career : |
-#          세종대학교 성악과 졸업
-#
-#          KBS 합창단 역임 
-#
-#          은혜광성교회 솔리스트
-#
-#          케리그마 남성합창단 솔리스트
+        career : |
+          세종대학교 성악과 졸업
+
+          KBS 합창단 역임 
+
+          은혜광성교회 솔리스트
+
+          케리그마 남성합창단 솔리스트
   contact:
     title: "Contact Us"
     text: "Lorem ipsum or call 123456789"
