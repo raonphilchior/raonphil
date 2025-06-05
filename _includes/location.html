@@ -1,4 +1,4 @@
-<!-- 오시는 길 (Location - Naver Maps Hardcoded) 섹션 -->
+<!-- 오시는 길 (Location - Naver Static Map Hardcoded Directly) 섹션 -->
 <section class="page-section" id="location">
   <div class="container">
     <div class="row">
@@ -9,17 +9,23 @@
     </div>
     <div class="row">
       <div class="col-lg-12">
-        <!-- 네이버 지도 표시 영역 -->
-        <div id="naverMapHardcodedContainer" style="width:100%; height:450px; margin-bottom: 20px;"></div>
+        <!-- 네이버 Static Map 이미지 표시 영역 -->
+        <!-- 모든 값을 src URL에 직접 입력 -->
+        <img
+          id="naverStaticMapContainer"
+          src="https://naveropenapi.apigw.ntruss.com/map-static/v2/raster?w=800&h=450¢er=127.133687,37.5262832&level=11&markers=type:t|size:mid|pos:127.133687%2037.5262832|label:%EC%A4%91%ED%9D%A5%EA%B5%90%ED%9A%8C&X-NCP-APIGW-API-KEY-ID=yxhxnwbb3a"
+          alt="중흥교회 위치 지도"
+          style="width: 100%; max-width: 800px; height: auto; display: block; margin: 0 auto 20px auto; border: 1px solid #ccc;"
+        >
+        <!-- 중요: X-NCP-APIGW-API-KEY-ID 값을 실제 유효한 신규 Client ID로 교체하세요. -->
+        <!-- '중흥교회'의 URL 인코딩 값은 %EC%A4%91%ED%9D%A5%EA%B5%90%ED%9A%8C 입니다. -->
 
         <!-- 정보 표시 (주소, 길찾기 등) -->
-        <div class="location-details">
+        <div class="location-details text-center">
           <h3>중흥교회(교회는 장소만 사용)</h3>
           <p>서울특별시 강동구 성내동 430-2</p>
           <div class="map_ico_btn_wrap">
-            <!-- 지도에서 보기: 네이버 장소 ID(place_id) 사용 -->
             <a href="https://map.naver.com/p/entry/place/12390282" target="_blank" class="btn_map theme_background" style="margin-right: 10px;"><span class="nicon nicon_pin1"></span>지도에서 보기</a>
-            <!-- 길찾기: 네이버 장소 ID(place_id) 및 장소명 사용 -->
             <a href="https://map.naver.com/p/directions/-/12390282,중흥교회" target="_blank" class="btn_roadmap theme_background"><span class="nicon nicon_pathfind2"></span>길찾기</a>
           </div>
 
@@ -40,49 +46,3 @@
     </div>
   </div>
 </section>
-
-<!-- 네이버 지도 API 로드 (Client ID 직접 입력) -->
-<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=yxhxnwbb3a&submodules=geocoder"></script>
-
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  // --- 모든 위치 정보 하드코딩 ---
-  var mapLat = 37.5262832;
-  var mapLng = 127.133687;
-  var mapZoom = 15; // 확대 레벨
-  var locationName = "중흥교회";
-  var locationAddress = "서울특별시 강동구 성내동 430-2";
-  // -----------------------------
-
-  var mapOptions = {
-    center: new naver.maps.LatLng(mapLat, mapLng),
-    zoom: mapZoom,
-  };
-
-  var map = new naver.maps.Map('naverMapHardcodedContainer', mapOptions); // 지도 컨테이너 ID 변경
-
-  var marker = new naver.maps.Marker({
-    position: new naver.maps.LatLng(mapLat, mapLng),
-    map: map,
-  });
-
-  var infoWindowContent = [
-    '<div style="padding:10px;min-width:200px;line-height:150%;">',
-    '  <h5 style="margin-top:5px; font-weight:bold;">' + locationName + '</h5>',
-    '  <p>' + locationAddress + '</p>',
-    '</div>'
-  ].join('');
-
-  var infoWindow = new naver.maps.InfoWindow({
-    content: infoWindowContent,
-  });
-
-  naver.maps.Event.addListener(marker, "click", function(e) {
-    if (infoWindow.getMap()) {
-      infoWindow.close();
-    } else {
-      infoWindow.open(map, marker);
-    }
-  });
-});
-</script>
