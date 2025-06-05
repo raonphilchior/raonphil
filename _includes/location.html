@@ -4,32 +4,45 @@
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading text-uppercase">오시는 길</h2>
-        <h3 class="section-subheading text-muted">Our location</h3>
+        <h3 class="section-subheading text-muted" style="margin-bottom: 30px;">Our location</h3>
         <!-- 카카오맵 표시 영역 -->
         <div id="kakaoMapContainer" style="width:100%; margin-bottom: 20px;">
           <!-- 높이는 아래 <style> 태그에서 CSS로 제어합니다. -->
         </div>
         <!-- 정보 표시 (주소, 길찾기 등) - 지도 컨테이너와 형제 레벨로 위치해야 함 -->
         <div class="location-details text-center">
-          <p>중흥교회(교회는 장소만 사용) 서울특별시 강동구 성내동 430-2</p>
-          <div class="map_ico_btn_wrap">
-            <!-- 지도에서 보기: 카카오맵 장소 상세 URL -->
-			<a href="https://map.kakao.com/link/map/중흥교회,37.5262832,127.133687" target="_blank" class="btn btn-primary btn-lg btn_map theme_background" style="margin-right: 10px;"><span class="nicon nicon_pin1"></span>지도에서 보기</a>
-			<a href="https://map.kakao.com/link/to/중흥교회,37.5262832,127.133687" target="_blank" class="btn btn-primary btn-lg btn_roadmap theme_background"><span class="nicon nicon_pathfind2"></span>길찾기</a>
-          </div>
-
-          <div class="local_area" style="margin-top: 20px;">
-            <dl class="list_info">
-              <dt class="item_title"><span class="nicon_pin2"></span>오시는길 상세</dt>
-              <dd class="item_description">
-                <span class="text">5호선 둔촌동역 3번출구에서 나와 태평양 약국 옆 골목에서 2번째 길에서 왼쪽</span>
-              </dd>
-              <dt class="item_title" style="margin-top:10px;"><span class="nicon_pin2"></span>주차정보</dt>
-              <dd class="item_description">
-                <span class="text">둔촌역전통시장 공영주차장, 안말공영주차장 외 주변주차시설 이용</span>
-              </dd>
-            </dl>
-          </div>
+			<div class="mb-1"> <!-- 기본 h3 스타일이 font-size: 1.75rem (약 1.75em) 정도 -->
+			  중흥교회
+			  <small class="text-muted font-weight-normal" style="font-size: 70%;"> <!-- h3에 맞게 비율 약간 조정 -->
+			    서울특별시 강동구 성내동 430-2(장소만 사용)
+			  </small>
+			</div>
+		  <!-- 부트스트랩 Flexbox 및 Spacing 유틸리티 사용 -->
+		  <div class="d-flex flex-wrap justify-content-center align-items-stretch mb-4">
+		    <!-- 카카오맵 버튼 -->
+		    <a href="https://map.kakao.com/link/map/중흥교회,37.5262832,127.133687" target="_blank" class="btn btn-warning btn-sm m-1 flex-fill">카카오<i class="fas fa-map-marker-alt mr-1"></i></a>
+		    <a href="https://map.kakao.com/link/to/중흥교회,37.5262832,127.133687" target="_blank" class="btn btn-warning btn-sm m-1 flex-fill">카카오<i class="fas fa-directions mr-1"></i></a>
+		    <!-- 네이버맵 버튼 -->
+		    <a href="https://map.naver.com/p/entry/place/12390282" target="_blank" class="btn btn-success btn-sm m-1 flex-fill">네이버<i class="fas fa-map-marker-alt mr-1"></i></a>
+		    <a href="https://map.naver.com/p/directions/-/12390282,중흥교회" target="_blank" class="btn btn-success btn-sm m-1 flex-fill">네이버<i class="fas fa-directions mr-1"></i></a>
+		  </div>
+		  <!-- 부트스트랩 스타일 적용된 local_area -->
+		  <div class="local_area mt-4 text-left mx-auto" style="max-width: 580px;"> <!-- mt-4: margin-top 증가, mx-auto: 수평 중앙 정렬 -->
+		    <dl class="list_info">
+		      <dt class="item_title font-weight-bold mt-3 mb-1"> <!-- font-weight-bold, mt-3, mb-1 -->
+		        <span class="nicon nicon_pin2"></span>오시는길 상세
+		      </dt>
+		      <dd class="item_description text-secondary"> <!-- text-secondary: 약간 연한 글자색 -->
+		        <span class="text">5호선 둔촌동역 3번출구에서 나와 태평양 약국 옆 골목에서 2번째 길에서 왼쪽</span>
+		      </dd>
+		      <dt class="item_title font-weight-bold mt-3 mb-1"> <!-- mt-3, mb-1 -->
+		        <span class="nicon nicon_pin2"></span>주차정보
+		      </dt>
+		      <dd class="item_description text-secondary">
+		        <span class="text">둔촌역전통시장 공영주차장, 안말공영주차장 외 주변주차시설 이용</span>
+		      </dd>
+		    </dl>
+		  </div>
         </div>
       </div>
     </div>
@@ -48,14 +61,14 @@
   /* 모바일 화면 (예: 화면 너비가 768px 이하일 때) */
   @media (max-width: 768px) {
     #kakaoMapContainer {
-      height: 300px; /* 모바일에서의 높이 (더 작게 조절) */
+      height: 200px; /* 모바일에서의 높이 (더 작게 조절) */
     }
   }
 
   /* 더 작은 모바일 화면 (예: 화면 너비가 480px 이하일 때) */
   @media (max-width: 480px) {
     #kakaoMapContainer {
-      height: 250px; /* 더 작은 모바일에서의 높이 */
+      height: 180px; /* 더 작은 모바일에서의 높이 */
     }
   }
 
