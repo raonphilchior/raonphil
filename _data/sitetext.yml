@@ -26,7 +26,7 @@ en: &DEFAULT_EN
     section: about
 
   portfolio:
-    title: "소중한 발자취"
+    title: "활동 자료집"
     text: "Our portfolio"
     section: portfolio
     closebutton: "공연정보 닫기"
