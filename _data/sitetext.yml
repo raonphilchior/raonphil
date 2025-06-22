@@ -39,6 +39,7 @@ en: &DEFAULT_EN
     #start_align: "left"
     events:
       - year: "2022-2024"
+        image: assets/img/timeline/7.jpg
         desc: |
           2024년 5월 성남문화예술제 음악제(성남아트센터 콘서트홀)
 
@@ -52,6 +53,7 @@ en: &DEFAULT_EN
           2022년 10월 10주년 기념음악회 강동필하모닉 오케스트라 "The Hero- Giant"(강동아트센터 대극장)
         align: right
       - year: "2019"
+        image: assets/img/timeline/5.jpg
         desc: |
           02월 3.1운동 100주년 기념음악회 나의조국(예술의전당 콘서트홀)
 
@@ -64,6 +66,7 @@ en: &DEFAULT_EN
 
           12월 이웃과 함께 강동예찬 환희의 송가(강동아트센터 대극장)
       - year: "2018"
+        image: assets/img/timeline/4.jpg
         desc: |
           04월 한신대학교 개교78주년기념콘서트(롯데콘서트홀)
 
@@ -79,6 +82,7 @@ en: &DEFAULT_EN
 
           12월 외국인 근로자를 위한 송년음악회
       - year: "2017"
+        image: assets/img/timeline/3.jpg
         desc: |
           04월 에덴 요양병원 공연
 
@@ -91,6 +95,7 @@ en: &DEFAULT_EN
 
           12월 외국인 근로자를 위한 송년음악회
       - year: "2016년"
+        image: assets/img/timeline/2.jpg
         desc: |
          08월 한민족 합창축제 (예술의전당 콘서트홀)
 
@@ -106,6 +111,7 @@ en: &DEFAULT_EN
 
          12월 외국인 근로자를 위한 송년음악회
       - year: "2015년 창립"
+        image: assets/img/timeline/1.jpg
         desc: |
          06월 에덴 요양병원 공연
 
