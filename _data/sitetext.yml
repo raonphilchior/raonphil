@@ -50,7 +50,6 @@ en: &DEFAULT_EN
 
 
           2025년 12월 ANTON BRUCKENER TE DEUM (고양아람누리 아람음악당)
-        align: right
       - year: "2022-2024"
         image: assets/img/timeline/7.jpg
         desc: |
@@ -64,7 +63,6 @@ en: &DEFAULT_EN
 
 
           2022년 10월 10주년 기념음악회 강동필하모닉 오케스트라 "The Hero- Giant"(강동아트센터 대극장)
-        align: right
       - year: "2019"
         image: assets/img/timeline/5.jpg
         desc: |
