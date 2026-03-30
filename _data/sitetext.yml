@@ -40,6 +40,17 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
+      - year: "2025-2026"
+        image: assets/img/timeline/8.jpg
+        desc: |
+          2026년 6월 정기공연 예정
+
+        
+          2026년 2월 음악예배(중흥교회)
+
+
+          2025년 12월 ANTON BRUCKENER TE DEUM (고양아람누리 아람음악당)
+        align: left
       - year: "2022-2024"
         image: assets/img/timeline/7.jpg
         desc: |
