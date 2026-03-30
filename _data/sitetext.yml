@@ -50,7 +50,7 @@ en: &DEFAULT_EN
 
 
           2025년 12월 ANTON BRUCKENER TE DEUM (고양아람누리 아람음악당)
-        align: left
+        align: right
       - year: "2022-2024"
         image: assets/img/timeline/7.jpg
         desc: |
@@ -172,7 +172,7 @@ en: &DEFAULT_EN
           러시아 상트페테르부르그 국립음악원 졸업(지휘전공)
 
           전) 포천시립합창단 지휘자
-      - name: "이정아"
+      - name: "강인아"
         role: "피아노"
       - name: "조은호"
         role: "단무장 예술감독"
