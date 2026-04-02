@@ -19,8 +19,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : 라온필하모닉합창단
 email      : lino90@hanmail.com #this is also the email contact forms will go to
-description: "Agency Bootstrap theme converted to a Jekyll theme, plus new features: Google Analytics, Markdown support, custom pages, and more!"
-author     : Your Name
+description: "강동구 지역을 기반으로 활동하며 일상의 여백을 클래식 선율로 채워가는 라온필하모닉합창단입니다. 2014년 창단 이래, 바쁜 일상을 살아가는 직장인들과 음악 전공자들이 한데 어우러져 깊이 있는 화음을 만들어내고 있습니다. 클래식을 사랑하는 새로운 목소리를 언제나 기다리고 있으며, 우리의 하모니가 필요한 무대와 소중한 인연이 닿기를 기대합니다."
+author     : 라온필하모닉합창단
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
@@ -28,7 +28,7 @@ author     : Your Name
 locale: "ko-KR" # See available languages in _data/sitetext.yml
 
 analytics:
-  google: #Google Analytics tracking code here
+  google: GTM-P472PZK5 #Google Analytics tracking code here
 
 collections:
   portfolio: 
