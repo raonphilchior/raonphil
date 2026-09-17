@@ -2,7 +2,7 @@
 order: 54
 title: 2026년 06월 18일 라온필하모닉합창단 제5회 정기연주회
 subtitle: 오페라아리아 & 모차르트 레퀴엠 (하남문화예술회관)
-image: assets/img/portfolio/20260618-info.png
+image: assets/img/portfolio/20260618-info.jpg
 alt: 라온필하모닉합창단 제5회 정기연주회 포스터
 images:
   - assets/img/portfolio/20260618-2.jpg
