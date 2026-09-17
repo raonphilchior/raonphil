@@ -18,6 +18,9 @@
                   {% if project.image2 %}
                     <img class="img-fluid d-block mx-auto" src="{{ project.image2 }}" alt="{{ project.alt2 | default: 'Image' }}" />
                   {% endif %}
+                  {% for img in project.images %}
+                    <img class="img-fluid d-block mx-auto" src="{{ img }}" alt="{{ project.images_alt | default: 'Image' }} {{ forloop.index }}" loading="lazy" />
+                  {% endfor %}
                   <p>{{ project.content }}</p>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
